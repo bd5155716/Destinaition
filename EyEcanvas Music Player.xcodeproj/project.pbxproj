@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA028F1C1AFFE772005BCD34 /* wool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA028F1B1AFFE772005BCD34 /* wool.jpg */; };
+		BA0BCB5C1AD4A5FA0078BE55 /* 2allmyxs_part2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB5A1AD4A5FA0078BE55 /* 2allmyxs_part2.mp3 */; };
+		BA0BCB611AD4CE2B0078BE55 /* black_EyE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB5E1AD4CE2B0078BE55 /* black_EyE.mp3 */; };
+		BA0BCB621AD4CE2B0078BE55 /* Motion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB5F1AD4CE2B0078BE55 /* Motion.mp3 */; };
+		BA0BCB631AD4CE2B0078BE55 /* She_is_There.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB601AD4CE2B0078BE55 /* She_is_There.mp3 */; };
+		BA0BCB691AD4D63D0078BE55 /* thumb2allmyxs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB641AD4D63D0078BE55 /* thumb2allmyxs.jpg */; };
+		BA0BCB6A1AD4D63D0078BE55 /* thumbblack_EyE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB651AD4D63D0078BE55 /* thumbblack_EyE.jpg */; };
+		BA0BCB6B1AD4D63D0078BE55 /* thumbfast_life.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB661AD4D63D0078BE55 /* thumbfast_life.jpg */; };
+		BA0BCB6C1AD4D63D0078BE55 /* thumbmotion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB671AD4D63D0078BE55 /* thumbmotion.jpg */; };
+		BA0BCB6D1AD4D63D0078BE55 /* thumbshe's_there.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0BCB681AD4D63D0078BE55 /* thumbshe's_there.jpg */; };
+		BA1F169A1AFF2247008C75F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1F16991AFF2247008C75F0 /* AVFoundation.framework */; };
+		BA2141541B16EEBE0023EE31 /* StopSign.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2141531B16EEBE0023EE31 /* StopSign.png */; };
+		BA2F9BB31AB899DF00978D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F9BB21AB899DF00978D6A /* AppDelegate.swift */; };
+		BA2F9BB51AB899DF00978D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F9BB41AB899DF00978D6A /* ViewController.swift */; };
+		BA2F9BB81AB899DF00978D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2F9BB61AB899DF00978D6A /* Main.storyboard */; };
+		BA2F9BBA1AB899DF00978D6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2F9BB91AB899DF00978D6A /* Images.xcassets */; };
+		BA2F9BC91AB899E000978D6A /* EyEcanvas_Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F9BC81AB899E000978D6A /* EyEcanvas_Music_PlayerTests.swift */; };
+		BA2F9BDE1AB8A0B800978D6A /* thumbNotYet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA2F9BD61AB8A0B800978D6A /* thumbNotYet.jpg */; };
+		BA2F9BDF1AB8A0B800978D6A /* thumbshaulinfunk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA2F9BD71AB8A0B800978D6A /* thumbshaulinfunk.jpg */; };
+		BA2F9BE01AB8A0B800978D6A /* thumbSlide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA2F9BD81AB8A0B800978D6A /* thumbSlide.jpg */; };
+		BA2F9BE11AB8A0B800978D6A /* thumbStarTrek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA2F9BD91AB8A0B800978D6A /* thumbStarTrek.jpg */; };
+		BA2F9BE21AB8A0B800978D6A /* thumbWaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA2F9BDA1AB8A0B800978D6A /* thumbWaves.jpg */; };
+		BA2F9BE41AB8A29800978D6A /* Logo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA2F9BE31AB8A29800978D6A /* Logo2.jpg */; };
+		BA3174311B8444FB00320926 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3174301B8444FB00320926 /* Launch Screen.xib */; };
+		BA4648AA1AC2342900197B0D /* notyet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA4648A51AC2342900197B0D /* notyet.mp3 */; };
+		BA4648AD1AC2342900197B0D /* startrek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA4648A81AC2342900197B0D /* startrek.mp3 */; };
+		BA5C0BFC1B4BC32E00D64184 /* thumbdaddio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5C0BFB1B4BC32E00D64184 /* thumbdaddio.jpg */; };
+		BA7CF1151B16F00E003B0D92 /* PauseSign.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7CF1141B16F00E003B0D92 /* PauseSign.png */; };
+		BA8443AC1B16F706004EA033 /* Balance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8443AB1B16F706004EA033 /* Balance.mp3 */; };
+		BA8836761B5C5FCE0058ECB3 /* waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8836751B5C5FCE0058ECB3 /* waves.mp3 */; };
+		BA9E3F381B16F26000F0966F /* PlaySign.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9E3F371B16F26000F0966F /* PlaySign.png */; };
+		BAB3E7671B84433E00D3D402 /* EyEcanvas.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB3E7661B84433E00D3D402 /* EyEcanvas.png */; };
+		BABD25CF1B4C4F2900F888FF /* Kings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BABD25CE1B4C4F2900F888FF /* Kings.mp3 */; };
+		BAD8505C1B4BBBE500A6A2E5 /* Album_Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAD8505B1B4BBBE500A6A2E5 /* Album_Intro.mp3 */; };
+		BAF42FD71B22CA18001D2582 /* Salad_Dressing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAF42FD61B22CA18001D2582 /* Salad_Dressing.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2F9BC31AB899E000978D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2F9BA51AB899DF00978D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2F9BAC1AB899DF00978D6A;
+			remoteInfo = "EyEcanvas Music Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA028F1B1AFFE772005BCD34 /* wool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wool.jpg; sourceTree = "<group>"; };
+		BA0BCB5A1AD4A5FA0078BE55 /* 2allmyxs_part2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2allmyxs_part2.mp3; path = sound/2allmyxs_part2.mp3; sourceTree = "<group>"; };
+		BA0BCB5E1AD4CE2B0078BE55 /* black_EyE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = black_EyE.mp3; path = sound/black_EyE.mp3; sourceTree = "<group>"; };
+		BA0BCB5F1AD4CE2B0078BE55 /* Motion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Motion.mp3; path = sound/Motion.mp3; sourceTree = "<group>"; };
+		BA0BCB601AD4CE2B0078BE55 /* She_is_There.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = She_is_There.mp3; path = sound/She_is_There.mp3; sourceTree = "<group>"; };
+		BA0BCB641AD4D63D0078BE55 /* thumb2allmyxs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb2allmyxs.jpg; sourceTree = "<group>"; };
+		BA0BCB651AD4D63D0078BE55 /* thumbblack_EyE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbblack_EyE.jpg; sourceTree = "<group>"; };
+		BA0BCB661AD4D63D0078BE55 /* thumbfast_life.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbfast_life.jpg; sourceTree = "<group>"; };
+		BA0BCB671AD4D63D0078BE55 /* thumbmotion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbmotion.jpg; sourceTree = "<group>"; };
+		BA0BCB681AD4D63D0078BE55 /* thumbshe's_there.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumbshe's_there.jpg"; sourceTree = "<group>"; };
+		BA1F16991AFF2247008C75F0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BA2141531B16EEBE0023EE31 /* StopSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StopSign.png; sourceTree = "<group>"; };
+		BA2F9BAD1AB899DF00978D6A /* EyEcanvas Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EyEcanvas Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2F9BB11AB899DF00978D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2F9BB21AB899DF00978D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA2F9BB41AB899DF00978D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA2F9BB71AB899DF00978D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA2F9BB91AB899DF00978D6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA2F9BC21AB899E000978D6A /* EyEcanvas Music PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EyEcanvas Music PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2F9BC71AB899E000978D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2F9BC81AB899E000978D6A /* EyEcanvas_Music_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyEcanvas_Music_PlayerTests.swift; sourceTree = "<group>"; };
+		BA2F9BD61AB8A0B800978D6A /* thumbNotYet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbNotYet.jpg; sourceTree = "<group>"; };
+		BA2F9BD71AB8A0B800978D6A /* thumbshaulinfunk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbshaulinfunk.jpg; sourceTree = "<group>"; };
+		BA2F9BD81AB8A0B800978D6A /* thumbSlide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbSlide.jpg; sourceTree = "<group>"; };
+		BA2F9BD91AB8A0B800978D6A /* thumbStarTrek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbStarTrek.jpg; sourceTree = "<group>"; };
+		BA2F9BDA1AB8A0B800978D6A /* thumbWaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbWaves.jpg; sourceTree = "<group>"; };
+		BA2F9BE31AB8A29800978D6A /* Logo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo2.jpg; sourceTree = "<group>"; };
+		BA3174301B8444FB00320926 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		BA4648A51AC2342900197B0D /* notyet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = notyet.mp3; path = sound/notyet.mp3; sourceTree = "<group>"; };
+		BA4648A81AC2342900197B0D /* startrek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = startrek.mp3; path = sound/startrek.mp3; sourceTree = "<group>"; };
+		BA5C0BFB1B4BC32E00D64184 /* thumbdaddio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbdaddio.jpg; sourceTree = "<group>"; };
+		BA7CF1141B16F00E003B0D92 /* PauseSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseSign.png; sourceTree = "<group>"; };
+		BA8443AB1B16F706004EA033 /* Balance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Balance.mp3; path = sound/Balance.mp3; sourceTree = "<group>"; };
+		BA8836751B5C5FCE0058ECB3 /* waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = waves.mp3; path = sound/waves.mp3; sourceTree = "<group>"; };
+		BA9E3F371B16F26000F0966F /* PlaySign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaySign.png; sourceTree = "<group>"; };
+		BAB3E7661B84433E00D3D402 /* EyEcanvas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EyEcanvas.png; sourceTree = "<group>"; };
+		BABD25CE1B4C4F2900F888FF /* Kings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kings.mp3; path = sound/Kings.mp3; sourceTree = "<group>"; };
+		BAD8505B1B4BBBE500A6A2E5 /* Album_Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Album_Intro.mp3; path = sound/Album_Intro.mp3; sourceTree = "<group>"; };
+		BAF42FD61B22CA18001D2582 /* Salad_Dressing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Salad_Dressing.mp3; path = sound/Salad_Dressing.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2F9BAA1AB899DF00978D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1F169A1AFF2247008C75F0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2F9BBF1AB899E000978D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2F9BA41AB899DF00978D6A = {
+			isa = PBXGroup;
+			children = (
+				BAB3E7661B84433E00D3D402 /* EyEcanvas.png */,
+				BA1F16991AFF2247008C75F0 /* AVFoundation.framework */,
+				BA4648A41AC2340900197B0D /* sound */,
+				BA2F9BD21AB89E8600978D6A /* pictures */,
+				BA2F9BAF1AB899DF00978D6A /* EyEcanvas Music Player */,
+				BA2F9BC51AB899E000978D6A /* EyEcanvas Music PlayerTests */,
+				BA2F9BAE1AB899DF00978D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2F9BAE1AB899DF00978D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F9BAD1AB899DF00978D6A /* EyEcanvas Music Player.app */,
+				BA2F9BC21AB899E000978D6A /* EyEcanvas Music PlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2F9BAF1AB899DF00978D6A /* EyEcanvas Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F9BB21AB899DF00978D6A /* AppDelegate.swift */,
+				BA2F9BB41AB899DF00978D6A /* ViewController.swift */,
+				BA2F9BB61AB899DF00978D6A /* Main.storyboard */,
+				BA2F9BB91AB899DF00978D6A /* Images.xcassets */,
+				BA3174301B8444FB00320926 /* Launch Screen.xib */,
+				BA2F9BB01AB899DF00978D6A /* Supporting Files */,
+			);
+			path = "EyEcanvas Music Player";
+			sourceTree = "<group>";
+		};
+		BA2F9BB01AB899DF00978D6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F9BB11AB899DF00978D6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA2F9BC51AB899E000978D6A /* EyEcanvas Music PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F9BC81AB899E000978D6A /* EyEcanvas_Music_PlayerTests.swift */,
+				BA2F9BC61AB899E000978D6A /* Supporting Files */,
+			);
+			path = "EyEcanvas Music PlayerTests";
+			sourceTree = "<group>";
+		};
+		BA2F9BC61AB899E000978D6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F9BC71AB899E000978D6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA2F9BD21AB89E8600978D6A /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C0BFB1B4BC32E00D64184 /* thumbdaddio.jpg */,
+				BA9E3F371B16F26000F0966F /* PlaySign.png */,
+				BA7CF1141B16F00E003B0D92 /* PauseSign.png */,
+				BA2141531B16EEBE0023EE31 /* StopSign.png */,
+				BA028F1B1AFFE772005BCD34 /* wool.jpg */,
+				BA0BCB641AD4D63D0078BE55 /* thumb2allmyxs.jpg */,
+				BA0BCB651AD4D63D0078BE55 /* thumbblack_EyE.jpg */,
+				BA0BCB661AD4D63D0078BE55 /* thumbfast_life.jpg */,
+				BA0BCB671AD4D63D0078BE55 /* thumbmotion.jpg */,
+				BA0BCB681AD4D63D0078BE55 /* thumbshe's_there.jpg */,
+				BA2F9BE31AB8A29800978D6A /* Logo2.jpg */,
+				BA2F9BD61AB8A0B800978D6A /* thumbNotYet.jpg */,
+				BA2F9BD71AB8A0B800978D6A /* thumbshaulinfunk.jpg */,
+				BA2F9BD81AB8A0B800978D6A /* thumbSlide.jpg */,
+				BA2F9BD91AB8A0B800978D6A /* thumbStarTrek.jpg */,
+				BA2F9BDA1AB8A0B800978D6A /* thumbWaves.jpg */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
+		BA4648A41AC2340900197B0D /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				BA8836751B5C5FCE0058ECB3 /* waves.mp3 */,
+				BABD25CE1B4C4F2900F888FF /* Kings.mp3 */,
+				BAD8505B1B4BBBE500A6A2E5 /* Album_Intro.mp3 */,
+				BAF42FD61B22CA18001D2582 /* Salad_Dressing.mp3 */,
+				BA8443AB1B16F706004EA033 /* Balance.mp3 */,
+				BA0BCB5E1AD4CE2B0078BE55 /* black_EyE.mp3 */,
+				BA0BCB5F1AD4CE2B0078BE55 /* Motion.mp3 */,
+				BA0BCB601AD4CE2B0078BE55 /* She_is_There.mp3 */,
+				BA0BCB5A1AD4A5FA0078BE55 /* 2allmyxs_part2.mp3 */,
+				BA4648A51AC2342900197B0D /* notyet.mp3 */,
+				BA4648A81AC2342900197B0D /* startrek.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2F9BAC1AB899DF00978D6A /* EyEcanvas Music Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2F9BCC1AB899E000978D6A /* Build configuration list for PBXNativeTarget "EyEcanvas Music Player" */;
+			buildPhases = (
+				BA2F9BA91AB899DF00978D6A /* Sources */,
+				BA2F9BAA1AB899DF00978D6A /* Frameworks */,
+				BA2F9BAB1AB899DF00978D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EyEcanvas Music Player";
+			productName = "EyEcanvas Music Player";
+			productReference = BA2F9BAD1AB899DF00978D6A /* EyEcanvas Music Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA2F9BC11AB899E000978D6A /* EyEcanvas Music PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2F9BCF1AB899E000978D6A /* Build configuration list for PBXNativeTarget "EyEcanvas Music PlayerTests" */;
+			buildPhases = (
+				BA2F9BBE1AB899E000978D6A /* Sources */,
+				BA2F9BBF1AB899E000978D6A /* Frameworks */,
+				BA2F9BC01AB899E000978D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2F9BC41AB899E000978D6A /* PBXTargetDependency */,
+			);
+			name = "EyEcanvas Music PlayerTests";
+			productName = "EyEcanvas Music PlayerTests";
+			productReference = BA2F9BC21AB899E000978D6A /* EyEcanvas Music PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2F9BA51AB899DF00978D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "WERNHER SCHIRRA";
+				TargetAttributes = {
+					BA2F9BAC1AB899DF00978D6A = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M5X496CGRM;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BA2F9BC11AB899E000978D6A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BA2F9BAC1AB899DF00978D6A;
+					};
+				};
+			};
+			buildConfigurationList = BA2F9BA81AB899DF00978D6A /* Build configuration list for PBXProject "EyEcanvas Music Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2F9BA41AB899DF00978D6A;
+			productRefGroup = BA2F9BAE1AB899DF00978D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2F9BAC1AB899DF00978D6A /* EyEcanvas Music Player */,
+				BA2F9BC11AB899E000978D6A /* EyEcanvas Music PlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2F9BAB1AB899DF00978D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7CF1151B16F00E003B0D92 /* PauseSign.png in Resources */,
+				BA2F9BE11AB8A0B800978D6A /* thumbStarTrek.jpg in Resources */,
+				BA5C0BFC1B4BC32E00D64184 /* thumbdaddio.jpg in Resources */,
+				BA4648AD1AC2342900197B0D /* startrek.mp3 in Resources */,
+				BA0BCB631AD4CE2B0078BE55 /* She_is_There.mp3 in Resources */,
+				BA9E3F381B16F26000F0966F /* PlaySign.png in Resources */,
+				BA2F9BE01AB8A0B800978D6A /* thumbSlide.jpg in Resources */,
+				BA8836761B5C5FCE0058ECB3 /* waves.mp3 in Resources */,
+				BA2F9BE21AB8A0B800978D6A /* thumbWaves.jpg in Resources */,
+				BA2F9BB81AB899DF00978D6A /* Main.storyboard in Resources */,
+				BA2F9BDF1AB8A0B800978D6A /* thumbshaulinfunk.jpg in Resources */,
+				BA0BCB621AD4CE2B0078BE55 /* Motion.mp3 in Resources */,
+				BA0BCB6A1AD4D63D0078BE55 /* thumbblack_EyE.jpg in Resources */,
+				BAF42FD71B22CA18001D2582 /* Salad_Dressing.mp3 in Resources */,
+				BA0BCB6C1AD4D63D0078BE55 /* thumbmotion.jpg in Resources */,
+				BA0BCB6B1AD4D63D0078BE55 /* thumbfast_life.jpg in Resources */,
+				BA2141541B16EEBE0023EE31 /* StopSign.png in Resources */,
+				BA0BCB6D1AD4D63D0078BE55 /* thumbshe's_there.jpg in Resources */,
+				BA0BCB611AD4CE2B0078BE55 /* black_EyE.mp3 in Resources */,
+				BA8443AC1B16F706004EA033 /* Balance.mp3 in Resources */,
+				BAD8505C1B4BBBE500A6A2E5 /* Album_Intro.mp3 in Resources */,
+				BA2F9BDE1AB8A0B800978D6A /* thumbNotYet.jpg in Resources */,
+				BA0BCB5C1AD4A5FA0078BE55 /* 2allmyxs_part2.mp3 in Resources */,
+				BA2F9BBA1AB899DF00978D6A /* Images.xcassets in Resources */,
+				BA028F1C1AFFE772005BCD34 /* wool.jpg in Resources */,
+				BA0BCB691AD4D63D0078BE55 /* thumb2allmyxs.jpg in Resources */,
+				BAB3E7671B84433E00D3D402 /* EyEcanvas.png in Resources */,
+				BA2F9BE41AB8A29800978D6A /* Logo2.jpg in Resources */,
+				BA3174311B8444FB00320926 /* Launch Screen.xib in Resources */,
+				BA4648AA1AC2342900197B0D /* notyet.mp3 in Resources */,
+				BABD25CF1B4C4F2900F888FF /* Kings.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2F9BC01AB899E000978D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2F9BA91AB899DF00978D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2F9BB51AB899DF00978D6A /* ViewController.swift in Sources */,
+				BA2F9BB31AB899DF00978D6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2F9BBE1AB899E000978D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2F9BC91AB899E000978D6A /* EyEcanvas_Music_PlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2F9BC41AB899E000978D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2F9BAC1AB899DF00978D6A /* EyEcanvas Music Player */;
+			targetProxy = BA2F9BC31AB899E000978D6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA2F9BB61AB899DF00978D6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2F9BB71AB899DF00978D6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2F9BCA1AB899E000978D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA2F9BCB1AB899E000978D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2F9BCD1AB899E000978D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "EyEcanvas Music Player/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EyEcanvas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "78e97bca-5647-4d42-bf63-2448b83af6db";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA2F9BCE1AB899E000978D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "EyEcanvas Music Player/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EyEcanvas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "78e97bca-5647-4d42-bf63-2448b83af6db";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA2F9BD01AB899E000978D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EyEcanvas Music PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EyEcanvas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyEcanvas Music Player.app/EyEcanvas Music Player";
+			};
+			name = Debug;
+		};
+		BA2F9BD11AB899E000978D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EyEcanvas Music PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EyEcanvas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyEcanvas Music Player.app/EyEcanvas Music Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2F9BA81AB899DF00978D6A /* Build configuration list for PBXProject "EyEcanvas Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2F9BCA1AB899E000978D6A /* Debug */,
+				BA2F9BCB1AB899E000978D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2F9BCC1AB899E000978D6A /* Build configuration list for PBXNativeTarget "EyEcanvas Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2F9BCD1AB899E000978D6A /* Debug */,
+				BA2F9BCE1AB899E000978D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2F9BCF1AB899E000978D6A /* Build configuration list for PBXNativeTarget "EyEcanvas Music PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2F9BD01AB899E000978D6A /* Debug */,
+				BA2F9BD11AB899E000978D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2F9BA51AB899DF00978D6A /* Project object */;
+}
